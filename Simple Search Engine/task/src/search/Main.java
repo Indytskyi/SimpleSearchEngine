@@ -1,10 +1,15 @@
 package search;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
+    static Scanner scanner = new Scanner(System.in);
+    static ArrayList<String> peopleData = new ArrayList<>();
+
     public static void findWord() {
-        Scanner scanner = new Scanner(System.in);
+
+
         String stringInput = scanner.nextLine();
         String[] stringArray = stringInput.split(" ");
         String currentWord = scanner.nextLine();
@@ -16,7 +21,10 @@ public class Main {
         }
         System.out.println("Not found");
     }
+
+
     public static void main(String[] args) {
+
         System.out.println("Hello World!");
     }
 }

@@ -9,28 +9,38 @@ public class Main {
     static Scanner scanner = new Scanner(System.in);
     static ArrayList<String> peopleData = new ArrayList<>();
 
-    public static void findWord() {
-        String stringInput = scanner.nextLine();
-        String[] stringArray = stringInput.split(" ");
-        String currentWord = scanner.nextLine();
-        for (int i = 0; i < stringArray.length; i++) {
-            if (stringArray[i].equals(currentWord)) {
-                System.out.println(i + 1);
-                return;
-            }
-        }
-        System.out.println("Not found");
-    }
-
     public static void menu() {
         System.out.println("Enter the number of people:");
         int numberOfPeople = Integer.valueOf(scanner.nextLine());
         System.out.println("Enter all people:");
         addingPeople(numberOfPeople);
 
-        System.out.println("\nEnter data to search queries:");
-        int numberOfSearchPeople = Integer.valueOf(scanner.nextLine());
-        searchingPeople(numberOfSearchPeople);
+        while (true) {
+            System.out.println("\n=== Menu ===\n" +
+                    "1. Find a person\n" +
+                    "2. Print all people\n" +
+                    "0. Exit");
+            int controller;
+            String controllerString = scanner.nextLine();
+            if (!controllerString.matches("[0-2]")) {
+                System.out.println("Incorrect option! Try again.");
+                continue;
+            } else {
+                controller = Integer.parseInt(controllerString);
+            }
+            switch (controller) {
+                case 1:
+                    System.out.println("\nEnter a name or email to search all suitable people.");
+                    searchingPeople();
+                    break;
+                case 2:
+                    printAllPerson();
+                    break;
+                case 0:
+                    System.out.println("\nBye!");
+                    return;
+            }
+        }
     }
 
     public static void addingPeople(int numberOfPeople) {
@@ -39,39 +49,28 @@ public class Main {
         }
     }
 
-
-
-    public static void searchingPeople(int numberOfSearchPeople) {
-        LinkedHashSet<String> foundPeople = new LinkedHashSet<>();
-
-        for (int i = 0; i < numberOfSearchPeople; i++) {
-            System.out.println("\nEnter data to search people:");
-            String inputPeople = scanner.nextLine().trim();
-//            foundPeople = new LinkedHashSet<>(peopleData.stream()
-//                    .filter(person -> person.toLowerCase().equals(inputPeople.toLowerCase()))
-//                    .collect(Collectors.toSet()));
-            for (String person : peopleData) {
-//                String[] dataOfPerson = person.toLowerCase().split(" ");
-//                if (Arrays.stream(dataOfPerson).
-//                        anyMatch(data -> data.toLowerCase().equals(inputPeople.toLowerCase()))) {
-//                    foundPeople.add(person);
-//                }
-                if (person.toLowerCase().contains(inputPeople.toLowerCase())) {
-                    foundPeople.add(person);
-                }
-
-            }
-
-            if (foundPeople.size() == 0) {
-                System.out.println("No matching people found.");
-            } else {
-                System.out.println("\nFound people:");
-
-                foundPeople.stream().forEach(p -> System.out.println(p));
-            }
-            foundPeople.clear();
-        }
+    public static void printAllPerson() {
+        System.out.println("\n=== List of people ===");
+        peopleData.forEach(System.out::println);
     }
+
+
+    public static void searchingPeople() {
+        LinkedHashSet<String> foundPeople = new LinkedHashSet<>();
+        String inputPeople = scanner.nextLine().trim();
+        for (String person : peopleData) {
+            if (person.toLowerCase().contains(inputPeople.toLowerCase())) {
+                foundPeople.add(person);
+            }
+        }
+        if (foundPeople.size() == 0) {
+            System.out.println("No matching people found.");
+        } else {
+            foundPeople.forEach(System.out::println);
+        }
+        foundPeople.clear();
+    }
+
     public static void main(String[] args) {
         menu();
     }

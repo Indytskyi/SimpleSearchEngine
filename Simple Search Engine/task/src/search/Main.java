@@ -12,10 +12,10 @@ public class Main {
     static ArrayList<String> peopleData = new ArrayList<>();
 
     public static void menu() {
-        System.out.println("Enter the number of people:");
-        int numberOfPeople = Integer.valueOf(scanner.nextLine());
-        System.out.println("Enter all people:");
-        addingPeople(numberOfPeople);
+//        System.out.println("Enter the number of people:");
+//        int numberOfPeople = Integer.valueOf(scanner.nextLine());
+//        System.out.println("Enter all people:");
+//        addingPeople(numberOfPeople);
 
         while (true) {
             System.out.println("\n=== Menu ===\n" +
@@ -74,6 +74,14 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        File file = new File(args[1]);
+        try (Scanner scanner1 = new Scanner(file)){
+            while (scanner1.hasNext()) {
+                peopleData.add(scanner1.nextLine());
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
         menu();
     }
 }

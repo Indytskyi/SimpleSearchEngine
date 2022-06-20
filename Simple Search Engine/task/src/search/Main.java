@@ -27,6 +27,7 @@ public class Main {
         int numberOfPeople = Integer.valueOf(scanner.nextLine());
         System.out.println("Enter all people:");
         addingPeople(numberOfPeople);
+
         System.out.println("\nEnter data to search queries:");
         int numberOfSearchPeople = Integer.valueOf(scanner.nextLine());
         searchingPeople(numberOfSearchPeople);
@@ -37,6 +38,8 @@ public class Main {
             peopleData.add(scanner.nextLine());
         }
     }
+
+
 
     public static void searchingPeople(int numberOfSearchPeople) {
         LinkedHashSet<String> foundPeople = new LinkedHashSet<>();

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SimpleSearchEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-19T17:07:46" hostname="C9252" time="0.085">
+<testsuite name="SimpleSearchEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-20T06:56:47" hostname="C9252" time="0.127">
   <properties/>
-  <testcase name="start" classname="SimpleSearchEngineTest" time="0.085"/>
+  <testcase name="start" classname="SimpleSearchEngineTest" time="0.127"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 Enter the number of people:

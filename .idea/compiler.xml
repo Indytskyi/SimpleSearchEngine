@@ -2,8 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="17">
+      <module name="Simple_Search_Engine.Simple_Search_Engine-task-build-classes-java.main" target="11" />
       <module name="Simple_Search_Engine.Simple_Search_Engine-task-build-generated-sources-annotationProcessor-java.main" target="11" />
       <module name="Simple_Search_Engine.Simple_Search_Engine-task-build-generated-sources-headers-java.main" target="11" />
+      <module name="Simple_Search_Engine.Simple_Search_Engine-task-build-reports-tests.main" target="11" />
+      <module name="Simple_Search_Engine.Simple_Search_Engine-task-build-test-results.main" target="11" />
+      <module name="Simple_Search_Engine.Simple_Search_Engine-task-build-tmp.main" target="11" />
       <module name="Simple_Search_Engine.Simple_Search_Engine-task.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Command-line_arguments-Command_line_arguments.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Command-line_arguments-Get_the_game_mode.main" target="11" />
@@ -12,6 +16,30 @@
       <module name="Simple_Search_Engine.Topics-Command-line_arguments-Theory.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Defining_classes-Inner_boxes.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Defining_classes-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Files-Are_siblings.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Files-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Getters_and_setters-Account.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Getters_and_setters-Book.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Getters_and_setters-Choose_a_pair_of_getter_and_setter.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Getters_and_setters-Getting_the_fullname.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Getters_and_setters-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Hierarchy_of_exceptions-BadRequestException.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Hierarchy_of_exceptions-Base_class.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Hierarchy_of_exceptions-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Instance_methods-Car.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Instance_methods-Circle.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Instance_methods-Patient_needs_a_doctor.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Instance_methods-Simulating_a_clock.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Instance_methods-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Overloading-Overloading_a_method.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Overloading-Print.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Overloading-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Package-Creating_instances.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Package-Getting_input.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Package-Purpose.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Package-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-The_keyword_super-Bank_account.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-The_keyword_super-Theory.main" target="11" />
       <module name="Simple_Search_Engine.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>

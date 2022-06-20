@@ -38,6 +38,15 @@
       <module name="Simple_Search_Engine.Topics-Package-Getting_input.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Package-Purpose.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Package-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Polymorphism-Find_mistake.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Polymorphism-Notification.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Polymorphism-Publication_and_its_subclasses.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Polymorphism-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Static_members-Detail_manufacturing.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Static_members-Mystery_of_the_methods.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Static_members-Project_constants_and_methods.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Static_members-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Static_members-Too_many_cats.main" target="11" />
       <module name="Simple_Search_Engine.Topics-The_keyword_super-Bank_account.main" target="11" />
       <module name="Simple_Search_Engine.Topics-The_keyword_super-Theory.main" target="11" />
       <module name="Simple_Search_Engine.util.main" target="11" />

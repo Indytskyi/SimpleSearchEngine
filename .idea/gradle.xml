@@ -18,6 +18,8 @@
             <option value="$PROJECT_DIR$/Simple Search Engine/task/build/reports/tests" />
             <option value="$PROJECT_DIR$/Simple Search Engine/task/build/test-results" />
             <option value="$PROJECT_DIR$/Simple Search Engine/task/build/tmp" />
+            <option value="$PROJECT_DIR$/Topics/ArrayList/Creating list" />
+            <option value="$PROJECT_DIR$/Topics/ArrayList/Theory" />
             <option value="$PROJECT_DIR$/Topics/Command-line arguments/Command line arguments" />
             <option value="$PROJECT_DIR$/Topics/Command-line arguments/Get the game mode" />
             <option value="$PROJECT_DIR$/Topics/Command-line arguments/How to start a program" />
@@ -40,6 +42,11 @@
             <option value="$PROJECT_DIR$/Topics/Instance methods/Patient needs a doctor" />
             <option value="$PROJECT_DIR$/Topics/Instance methods/Simulating a clock" />
             <option value="$PROJECT_DIR$/Topics/Instance methods/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Compact strings with AsciiCharSequence" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Interface methods" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Properties of methods" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Interface/What can an interface have" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Overloading a method" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Print" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Theory" />
@@ -56,8 +63,22 @@
             <option value="$PROJECT_DIR$/Topics/Static members/Project constants and methods" />
             <option value="$PROJECT_DIR$/Topics/Static members/Theory" />
             <option value="$PROJECT_DIR$/Topics/Static members/Too many cats" />
+            <option value="$PROJECT_DIR$/Topics/The Collections Framework overview/Extra methods" />
+            <option value="$PROJECT_DIR$/Topics/The Collections Framework overview/Squares list" />
+            <option value="$PROJECT_DIR$/Topics/The Collections Framework overview/Theory" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Counting words" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Creating a map" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Getting submaps" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Modifying a map" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Theory" />
+            <option value="$PROJECT_DIR$/Topics/The Set interface/Creating a set" />
+            <option value="$PROJECT_DIR$/Topics/The Set interface/Theory" />
             <option value="$PROJECT_DIR$/Topics/The keyword super/Bank account" />
             <option value="$PROJECT_DIR$/Topics/The keyword super/Theory" />
+            <option value="$PROJECT_DIR$/Topics/What are collections/Initialize a collection" />
+            <option value="$PROJECT_DIR$/Topics/What are collections/The one suitable description" />
+            <option value="$PROJECT_DIR$/Topics/What are collections/The relations between Java and CS" />
+            <option value="$PROJECT_DIR$/Topics/What are collections/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

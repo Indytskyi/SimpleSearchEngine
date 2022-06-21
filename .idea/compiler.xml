@@ -9,6 +9,8 @@
       <module name="Simple_Search_Engine.Simple_Search_Engine-task-build-test-results.main" target="11" />
       <module name="Simple_Search_Engine.Simple_Search_Engine-task-build-tmp.main" target="11" />
       <module name="Simple_Search_Engine.Simple_Search_Engine-task.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-ArrayList-Creating_list.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-ArrayList-Theory.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Command-line_arguments-Command_line_arguments.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Command-line_arguments-Get_the_game_mode.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Command-line_arguments-How_to_start_a_program.main" target="11" />
@@ -31,6 +33,11 @@
       <module name="Simple_Search_Engine.Topics-Instance_methods-Patient_needs_a_doctor.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Instance_methods-Simulating_a_clock.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Instance_methods-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Interface-Compact_strings_with_AsciiCharSequence.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Interface-Interface_methods.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Interface-Properties_of_methods.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Interface-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Interface-What_can_an_interface_have.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Overloading-Overloading_a_method.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Overloading-Print.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Overloading-Theory.main" target="11" />
@@ -47,8 +54,22 @@
       <module name="Simple_Search_Engine.Topics-Static_members-Project_constants_and_methods.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Static_members-Theory.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Static_members-Too_many_cats.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-The_Collections_Framework_overview-Extra_methods.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-The_Collections_Framework_overview-Squares_list.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-The_Collections_Framework_overview-Theory.main" target="11" />
       <module name="Simple_Search_Engine.Topics-The_keyword_super-Bank_account.main" target="11" />
       <module name="Simple_Search_Engine.Topics-The_keyword_super-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-The_Map_interface-Counting_words.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-The_Map_interface-Creating_a_map.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-The_Map_interface-Getting_submaps.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-The_Map_interface-Modifying_a_map.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-The_Map_interface-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-The_Set_interface-Creating_a_set.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-The_Set_interface-Theory.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-What_are_collections-Initialize_a_collection.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-What_are_collections-The_one_suitable_description.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-What_are_collections-The_relations_between_Java_and_CS.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-What_are_collections-Theory.main" target="11" />
       <module name="Simple_Search_Engine.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>

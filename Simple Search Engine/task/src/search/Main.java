@@ -12,11 +12,7 @@ public class Main {
     static ArrayList<String> peopleData = new ArrayList<>();
 
     public static void menu() {
-//        System.out.println("Enter the number of people:");
-//        int numberOfPeople = Integer.valueOf(scanner.nextLine());
-//        System.out.println("Enter all people:");
-//        addingPeople(numberOfPeople);
-
+        MapFinder mapFinder = new MapFinder(peopleData);
         while (true) {
             System.out.println("\n=== Menu ===\n" +
                     "1. Find a person\n" +
@@ -33,7 +29,7 @@ public class Main {
             switch (controller) {
                 case 1:
                     System.out.println("\nEnter a name or email to search all suitable people.");
-                    searchingPeople();
+                    mapFinder.findPerson();
                     break;
                 case 2:
                     printAllPerson();
@@ -45,32 +41,9 @@ public class Main {
         }
     }
 
-    public static void addingPeople(int numberOfPeople) {
-        for (int i = 0; i < numberOfPeople; i++) {
-            peopleData.add(scanner.nextLine());
-        }
-    }
-
     public static void printAllPerson() {
         System.out.println("\n=== List of people ===");
         peopleData.forEach(System.out::println);
-    }
-
-
-    public static void searchingPeople() {
-        LinkedHashSet<String> foundPeople = new LinkedHashSet<>();
-        String inputPeople = scanner.nextLine().trim();
-        for (String person : peopleData) {
-            if (person.toLowerCase().contains(inputPeople.toLowerCase())) {
-                foundPeople.add(person);
-            }
-        }
-        if (foundPeople.size() == 0) {
-            System.out.println("No matching people found.");
-        } else {
-            foundPeople.forEach(System.out::println);
-        }
-        foundPeople.clear();
     }
 
     public static void main(String[] args) {

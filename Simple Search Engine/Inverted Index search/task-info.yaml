@@ -292,6 +292,12 @@ files:
     }
 
   learner_created: false
+- name: src/search/MapFinder.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5500#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 21 Jun 2022 14:11:18 UTC
 record: -1

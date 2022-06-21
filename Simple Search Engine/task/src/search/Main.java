@@ -13,6 +13,7 @@ public class Main {
 
     public static void menu() {
         MapFinder mapFinder = new MapFinder(peopleData);
+        FindPerson findPerson = new FindPerson();
         while (true) {
             System.out.println("\n=== Menu ===\n" +
                     "1. Find a person\n" +
@@ -28,8 +29,9 @@ public class Main {
             }
             switch (controller) {
                 case 1:
-                    System.out.println("\nEnter a name or email to search all suitable people.");
-                    mapFinder.findPerson();
+                    typeOfStrategy(findPerson);
+                    findPerson.search(mapFinder.getWordOfPersons());
+                    findPerson.view(peopleData);
                     break;
                 case 2:
                     printAllPerson();
@@ -38,6 +40,25 @@ public class Main {
                     System.out.println("\nBye!");
                     return;
             }
+        }
+    }
+
+    public static void typeOfStrategy(FindPerson findPerson) {
+        while (true) {
+            System.out.println("Select a matching strategy: ALL, ANY, NONE");
+            String strategy = scanner.nextLine();
+            switch (strategy) {
+                case "ALL" :
+                    findPerson.setTypeOfSearch(new AllSearch());
+                    return;
+                case "ANY" :
+                    findPerson.setTypeOfSearch(new AnySearch());
+                    return;
+                case "NONE":
+                    findPerson.setTypeOfSearch(new NoneSearch());
+                    return;
+            }
+
         }
     }
 

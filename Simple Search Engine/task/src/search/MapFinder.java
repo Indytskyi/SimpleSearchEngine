@@ -5,8 +5,8 @@ import java.util.*;
 import static search.Main.scanner;
 
 public class MapFinder {
-    ArrayList<String> peopleData;
-    Map<String, ArrayList<Integer>> wordOfPersons = new TreeMap<>();
+    private  ArrayList<String> peopleData;
+    private  Map<String, ArrayList<Integer>> wordOfPersons = new TreeMap<>();
 
     public MapFinder(ArrayList<String> peopleData) {
         this.peopleData = peopleData;
@@ -26,16 +26,19 @@ public class MapFinder {
         }
     }
 
-    void findPerson() {
-        String inputPeople = scanner.nextLine().trim().toLowerCase();
-        if (wordOfPersons.containsKey(inputPeople)) {
-            ArrayList<Integer> foundPeople = wordOfPersons.get(inputPeople);
-            System.out.println(foundPeople.size() + " person found:");
-            foundPeople.forEach(i -> System.out.println(peopleData.get(i)));
-        } else {
-            System.out.println("No matching people found.");
-        }
+//    void findPerson() {
+//        String inputPeople = scanner.nextLine().trim().toLowerCase();
+//        if (wordOfPersons.containsKey(inputPeople)) {
+//            ArrayList<Integer> foundPeople = wordOfPersons.get(inputPeople);
+//            System.out.println(foundPeople.size() + " person found:");
+//            foundPeople.forEach(i -> System.out.println(peopleData.get(i)));
+//        } else {
+//            System.out.println("No matching people found.");
+//        }
+//    }
+
+
+    public Map<String, ArrayList<Integer>> getWordOfPersons() {
+        return wordOfPersons;
     }
-
-
 }

@@ -54,6 +54,9 @@
       <module name="Simple_Search_Engine.Topics-Static_members-Project_constants_and_methods.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Static_members-Theory.main" target="11" />
       <module name="Simple_Search_Engine.Topics-Static_members-Too_many_cats.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Template_method-Build_a_house.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Template_method-New_customer.main" target="11" />
+      <module name="Simple_Search_Engine.Topics-Template_method-Theory.main" target="11" />
       <module name="Simple_Search_Engine.Topics-The_Collections_Framework_overview-Extra_methods.main" target="11" />
       <module name="Simple_Search_Engine.Topics-The_Collections_Framework_overview-Squares_list.main" target="11" />
       <module name="Simple_Search_Engine.Topics-The_Collections_Framework_overview-Theory.main" target="11" />

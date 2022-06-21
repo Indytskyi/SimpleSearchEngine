@@ -322,6 +322,70 @@ files:
         }
     }
   learner_created: false
+- name: src/search/MapFinder.java
+  visible: true
+  text: |
+    package search;
+
+    import java.util.*;
+
+    import static search.Main.scanner;
+
+    public class MapFinder {
+        ArrayList<String> peopleData;
+        Map<String, ArrayList<Integer>> wordOfPersons = new TreeMap<>();
+
+        public MapFinder(ArrayList<String> peopleData) {
+            this.peopleData = peopleData;
+            fillingMap();
+        }
+
+        void fillingMap() {
+            for (int i = 0; i < peopleData.size(); i++) {
+                String[] personData = peopleData.get(i).toLowerCase().split(" ");
+                for (String data: personData) {
+                    if (!wordOfPersons.containsKey(data)) {
+                        wordOfPersons.put(data, new ArrayList<>(List.of(i)));
+                    } else {
+                        wordOfPersons.get(data).add(i);
+                    }
+                }
+            }
+        }
+
+        void findPerson() {
+            String inputPeople = scanner.nextLine().trim().toLowerCase();
+            if (wordOfPersons.containsKey(inputPeople)) {
+                ArrayList<Integer> foundPeople = wordOfPersons.get(inputPeople);
+                System.out.println(foundPeople.size() + " person found:");
+                foundPeople.forEach(i -> System.out.println(peopleData.get(i)));
+            } else {
+                System.out.println("No matching people found.");
+            }
+        }
+
+
+    }
+  learner_created: true
+- name: src/search/TypeOfSearch.java
+  visible: true
+  learner_created: true
+- name: src/search/AnySearch.java
+  visible: true
+  learner_created: true
+- name: src/search/AllSearch.java
+  visible: true
+  learner_created: true
+- name: src/search/NoneSearch.java
+  visible: true
+  learner_created: true
+- name: src/search/FindPerson.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5501#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Tue, 21 Jun 2022 18:10:06 UTC
 record: -1

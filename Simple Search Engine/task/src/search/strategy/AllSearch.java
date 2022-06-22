@@ -1,16 +1,22 @@
-package search;
+package search.strategy;
+
+import search.strategy.TypeOfSearch;
 
 import java.util.*;
 
-public class AllSearch implements TypeOfSearch{
-    private ArrayList<Integer> filterPeople = new ArrayList<>();
+public class AllSearch implements TypeOfSearch {
+    private final Set<Integer> filterPeople = new LinkedHashSet<>();
 
     @Override
-    public void search(Map<String, ArrayList<Integer>> wordOfPersons) {
+    public Set<Integer> search(Map<String, ArrayList<Integer>> wordOfPersons) {
+
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Enter a name or email to search all suitable people.");
         String inputData = scanner.nextLine();
+
         int counter = 0;
+
         for (String data: inputData.split(" ")) {
             if (wordOfPersons.containsKey(data)) {
                 if (counter == 0) {
@@ -21,16 +27,9 @@ public class AllSearch implements TypeOfSearch{
                 counter++;
             }
         }
+
+        return filterPeople;
+
     }
 
-    @Override
-    public void view(ArrayList<String> peopleData) {
-
-        if (filterPeople.size() == 0) {
-            System.out.println("No matching people found.");
-        } else {
-            System.out.println(filterPeople.size() + " person found:");
-            filterPeople.forEach(i -> System.out.println(peopleData.get(i)));
-        }
-    }
 }

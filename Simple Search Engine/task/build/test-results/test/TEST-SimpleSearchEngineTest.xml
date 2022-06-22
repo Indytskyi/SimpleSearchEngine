@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SimpleSearchEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-21T18:10:06" hostname="C9252" time="0.272">
+<testsuite name="SimpleSearchEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-22T10:37:46" hostname="C9252" time="0.275">
   <properties/>
-  <testcase name="start" classname="SimpleSearchEngineTest" time="0.272"/>
+  <testcase name="start" classname="SimpleSearchEngineTest" time="0.275"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 
@@ -93,47 +93,47 @@ Select a matching strategy: ALL, ANY, NONE
 Enter a name or email to search none suitable people.
 > bob gallien@evilcorp.com
 41 person found:
-Kristofer Galley
-Fernando Marbury fernando_marbury@gmail.com
-Kristyn Nix nix-kris@gmail.com
-Regenia Enderle
-Malena Gray
-Colette Mattei
-Wendolyn Mcphillips
-Jim Gray
-Coreen Beckham
-Yer Fillion
-Margene Resendez marres@gmail.com
-Blossom Ambler
-Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
 Abram Goldsberry
-Yer Leopold
-Stefania Trunzo
 Alexis Leopold
-Oliver Dacruz
-Jonie Richter
-Verdie Gentle
-Latricia Niebuhr
-Malena Schommer
-Drema Leopold
-Heide Payeur
-Ranae Digiovanni
-Simona Pereira
-Nick Digiovanni
-Elin Gray
-Dwain Trunzo
+Blossom Ambler
+Dana Baron baron@gmail.com
+Coreen Beckham
 Boris Beiler
-Remi Malek fsociefy@gmail.com
-Nydia Mcduffie
+Colette Mattei
+Oliver Dacruz
 Florencio Defibaugh
+Ranae Digiovanni
+Nick Digiovanni
+Drema Leopold
+Dwain Trunzo
+Elin Gray
+Elyse Pauling
+Regenia Enderle
+Erica Radford hisam@gmail.com
+Fernando Marbury fernando_marbury@gmail.com
+Yer Fillion
+Victorina Froehlich victory@gmail.com
+Remi Malek fsociefy@gmail.com
+Kristofer Galley
+Verdie Gentle
 Warner Giblin
+Malena Gray
+Jim Gray
 Shu Gray
 Kaycee Gray
-Victorina Froehlich victory@gmail.com
 Roseanne Gray
-Erica Radford hisam@gmail.com
-Elyse Pauling
+Heide Payeur
+Jonie Richter
+Kristyn Nix nix-kris@gmail.com
+Latricia Niebuhr
+Teri Ledet teri_ledet@gmail.com
+Yer Leopold
+Malena Schommer
+Margene Resendez marres@gmail.com
+Nydia Mcduffie
+Wendolyn Mcphillips
+Simona Pereira
+Stefania Trunzo
 
 === Menu ===
 1. Find a person

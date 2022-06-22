@@ -1,19 +1,23 @@
 package search;
 
+import search.strategy.AllSearch;
+import search.strategy.AnySearch;
+import search.strategy.FindPerson;
+import search.strategy.NoneSearch;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     static Scanner scanner = new Scanner(System.in);
-    static ArrayList<String> peopleData = new ArrayList<>();
+    static List<String> peopleData = new ArrayList<>();
 
     public static void menu() {
         MapFinder mapFinder = new MapFinder(peopleData);
-        FindPerson findPerson = new FindPerson();
+        FindPerson findPerson = new FindPerson(peopleData);
         while (true) {
             System.out.println("\n=== Menu ===\n" +
                     "1. Find a person\n" +
@@ -31,7 +35,6 @@ public class Main {
                 case 1:
                     typeOfStrategy(findPerson);
                     findPerson.search(mapFinder.getWordOfPersons());
-                    findPerson.view(peopleData);
                     break;
                 case 2:
                     printAllPerson();

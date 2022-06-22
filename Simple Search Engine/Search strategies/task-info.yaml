@@ -367,19 +367,19 @@ files:
 
     }
   learner_created: true
-- name: src/search/TypeOfSearch.java
+- name: src/search/strategy/NoneSearch.java
   visible: true
   learner_created: true
-- name: src/search/AnySearch.java
+- name: src/search/strategy/TypeOfSearch.java
   visible: true
   learner_created: true
-- name: src/search/AllSearch.java
+- name: src/search/strategy/AllSearch.java
   visible: true
   learner_created: true
-- name: src/search/NoneSearch.java
+- name: src/search/strategy/AnySearch.java
   visible: true
   learner_created: true
-- name: src/search/FindPerson.java
+- name: src/search/strategy/FindPerson.java
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5501#comment
@@ -387,5 +387,5 @@ status: Solved
 feedback:
   message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
     Academy</a> to continue learning.
-  time: Tue, 21 Jun 2022 18:10:06 UTC
+  time: Wed, 22 Jun 2022 10:37:46 UTC
 record: -1
